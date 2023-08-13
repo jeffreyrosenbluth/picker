@@ -27,6 +27,10 @@ export default function Root() {
         <Title>SolidStart - With TailwindCSS</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Body>
         <Suspense>

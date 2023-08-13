@@ -1,8 +1,8 @@
-import { createEffect } from "solid-js";
-import { A } from "solid-start";
-import { setStarted } from "~/components/cell";
-import { Players, playersText } from "~/components/players";
-import { Table } from "~/components/table";
+import { setStarted } from "~/components/Cell";
+import { Players, playersText } from "~/components/Players";
+import { Table } from "~/components/Table";
+import { Button, initTE } from "tw-elements";
+initTE({ Button });
 
 export default function Home() {
   return (

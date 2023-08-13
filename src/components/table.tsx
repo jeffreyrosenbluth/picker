@@ -1,6 +1,6 @@
-import { createSignal, For } from "solid-js";
-import { Cell } from "./cell";
-import { playerNames } from "./players";
+import { createEffect, createSignal, For } from "solid-js";
+import { Cell } from "./Cell";
+import { playerNames } from "./Players";
 
 export const [started, setStarted] = createSignal(false);
 
